@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/*!-----------按鈕連結與裝飾---------------*/
+/* botton */
+.btn {
+  display: block;
+  padding: 8px 0;
+  color: var(--primary400);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.btn:hover {
+  color: var(--primary500);
+}
+
+.btn:active {
+  color: var(--primary300);
+}
+
+.titleBtn {
+  color: var(--neutral900);
+}
+
+/* -------種類清單-------- */
+.listSlec {
+  display: block;
+  padding: 12px 0;
+  color: var(--neutral900);
+}
+
+.listSlec:hover {
+  color: var(--primary400);
+}
+
+/* --------翻頁按鈕-------- */
+.paginationBtn {
+  display: block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.paginationBtn:Hover {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: var(--neutral100);
+}
+
+.paginationBtn.selected {
+  background-color: var(--primary300);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* -----------收藏&預定---------- */
+.CTA-Btn {
+  flex: 1;
+  height: 48px;
+  padding: 12px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+}
+
+.CTA-like {
+  border: 1px solid var(--neutral900);
+}
+
+.CTA-like:hover, .CTA-book {
+  background-color: var(--neutral900);
+  color: var(--neutral000);
+}
+
+/* -------------選擇顏色---------------- */
+.colorOption {
+  width: 64px;
+  cursor: pointer;
+}
+
+.colorOption p {
+  text-align: center;
+  color: var(--neutral600);
+}
+
+.colorOption:hover img {
+  opacity: 0.8;
+}
+
+.colorOption.selected img {
+  border: 1px solid var(--neutral900);
+}
+
+.colorOption.selected p {
+  color: var(--neutral900);
+}
+
+/* -------------選擇尺寸---------------- */
+.slecBtn {
+  width: 160px;
+  padding: 12px 24px;
+  border: 1px solid var(--neutral300);
+  background-color: var(--neutral000);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.slecBtn:hover {
+  border-color: var(--neutral600);
+}
+
+.slecBtn.selected {
+  border-color: var(--neutral900);
+}
+
+/* -----------馬上註冊---------- */
+.registerBtn {
+  display: block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: var(--neutral900);
+  color: var(--neutral000);
+}
+
+/* -----------麵包屑---------- */
+.breadcrumb + .breadcrumb::before {
+  content: "/";
+  padding: 0 12px;
+  color: var(--neutral300);
+}
+
+/* 裝飾 */
+.st-bdb {
+  border-bottom: 1px solid var(--neutral300);
+}/*# sourceMappingURL=BTN_DECO.css.map */

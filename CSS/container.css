@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*!-----------容器設定---------------*/
+/* 區塊版面 */
+.wrap {
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/* -----------FLEX---------- */
+.f-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-jcsb {
+  justify-content: space-between;
+}
+
+.f-jcc {
+  justify-content: center;
+}
+
+.f-aic {
+  align-items: center;
+}
+
+/* -----------格線---------- */
+.row-fix {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.row {
+  margin-right: -12px;
+  margin-left: -12px;
+}
+
+[class*=col-] {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.col-1 {
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.3333333333%;
+}
+
+.col-10 {
+  width: 83.3333333333%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-c-24 {
+  column-gap: 24px;
+}
+
+.gap-r-48 {
+  gap: 48px 24px;
+}/*# sourceMappingURL=container.css.map */

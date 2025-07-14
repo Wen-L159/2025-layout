@@ -1,0 +1,16 @@
+/*!-----------單一區塊設定---------------*/
+    /* -----------商品列表---------- */
+.productCard {
+    max-width: 31%;
+}
+.productImageCard{
+    flex: 1 1 calc(50% - 4px);
+}
+.productSlideCard{
+    width: calc(25% - 12px);
+}
+    /* -----------footer---------- */
+.banner{
+    background-color: var(--primary200);
+    padding: 24px 0;
+}

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*!-----------文字樣式---------------*/
+body {
+  /* TW/Label/md */
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 5%;
+  color: var(--neutral900);
+}
+
+.taCenter {
+  text-align: center;
+}
+
+.ty-h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.ty-h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.ty-h3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+}
+
+.ty-h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.ty-h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.ty-h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.ty-sm {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tyc-head {
+  color: var(--neutral000);
+}
+
+a, .tyc-n900 {
+  color: var(--neutral900);
+}
+
+.tyc-high {
+  color: var(--primary400);
+}
+
+.tyc-foot {
+  color: var(--neutral600);
+}
+
+.tyc-n500 {
+  color: var(--neutral500);
+}
+
+.tyc-deco {
+  color: var(--neutral300);
+}
+
+.tyc-dan300 {
+  color: #D74F4F;
+}
+
+.tyd-line-through {
+  text-decoration: line-through;
+}/*# sourceMappingURL=text.css.map */
