@@ -1,0 +1,89 @@
+/*!-----------單一區塊設定---------------*/
+    /* -----------首頁---------- */
+.heroSection{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 289px 0;
+    padding-left: 200px;
+}
+.newCard{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 12px);
+}
+.hotCard{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 72px) / 4);
+    position: relative;
+}
+.badgeHot{
+    position: absolute;
+    top: 0;left: 0;
+    padding: 8px 12px;
+    background-color: var(--primary100);
+    color: var(--primary400);
+}
+.seriesCard{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc((100% - 72px) / 4);
+    position: relative;
+}
+// .seriesCard img{
+//     filter: brightness(100%);
+// }
+.badgeSeries{
+    position: absolute;
+    top: 50% ;left: 50%;
+    // color: var(--neutral200);
+    // padding: 0;
+}
+.saleBanner{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-co-branded.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.saleBanner a{
+    padding: 100px 0;
+}
+.saleB-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.saleB-descri{
+    margin-top: 32px;
+    margin-bottom: 48px;
+}
+    /* -----------品牌故事---------- */
+.brandHero{
+    background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 151px 0;
+
+}
+
+    /* -----------商品列表---------- */
+.productCard {
+    max-width: 31%;
+}
+.productImageCard{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 4px);
+}
+.productSlideCard{
+    width: calc(25% - 12px);
+}
+    /* -----------footer---------- */
+.banner{
+    background-color: var(--primary200);
+    padding: 24px 0;
+}

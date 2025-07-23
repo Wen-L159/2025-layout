@@ -1,0 +1,177 @@
+    /* -----------通用樣式-排版---------- */
+@media (max-width:900px){
+    .row-fix{
+        padding-right: 8px;
+        padding-left: 8px;}
+    .row{
+        margin-right: -8px;
+        margin-left: -8px;}
+
+    [class*="sm-col-"]{
+        padding-right: 8px;
+        padding-left: 8px;}
+    .sm-col-1{
+        width: calc(100% / 4);}
+    .sm-col-2{
+        width: calc(100% / 4) *2;}
+    .sm-col-4{
+        width: 100%;}
+    
+    .sm-gap-12{
+        gap: 12px;
+    }
+    .sm-gap-16{
+        gap: 16px;
+    }
+    .sm-gap-24{
+        gap: 24px;
+    }    
+    .sm-gap-c-12{
+        column-gap: 12px;
+    }
+    .sm-gap-r-24{
+        row-gap: 24px;
+    }
+}
+
+
+
+    
+
+    
+
+
+    /* -----------通用樣式-間隔---------- */
+@media (max-width:900px){
+    .sm-mb-32{
+        margin-bottom: 32px;
+    }
+    .sm-mb-24{
+        margin-bottom: 24px;
+    }
+    .sm-mb-16{
+        margin-bottom: 16px;
+    }
+    .sm-mb-12{
+        margin-bottom: 12px;
+    }
+    .sm-mb-8{
+        margin-bottom: 8px;
+    }
+    .sm-p-24{
+        padding: 24px;
+    }
+    .sm-py-32{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .sm-py-24{
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .sm-py-16{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .sm-py-12{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .sm-py-8{
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .sm-pb-32{
+        padding-bottom: 32px;
+    }
+}
+    /* -----------通用樣式-文字---------- */
+@media (max-width:900px){
+    .sm-tal{
+        text-align: left;
+    }
+    .sm-ty-Display2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .sm-ty-h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.2;
+    }
+    .sm-ty-h2{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .sm-ty-h3{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+    }
+    .sm-ty-h4{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+    .sm-ty-h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    }
+    .sm-ty-h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+}
+}
+
+@media (max-width:900px){
+    .brandHero{
+        background-image:url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+        padding: 87px 0;
+    }
+}
+
+    // /* -----------首頁---------- */
+    // .heroSection{
+    // background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/banner-sm.png?raw=true);
+    // padding: 155px 24px;
+
+
+
+// .nav{
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     .nav-link{
+//         justify-content: space-between;
+//     }
+    
+// }
+// .logo,.link-list,.link-story{
+        
+//     }
+// .bi-person{
+//     }
+
+// @media (max-width:900px){
+//     .logo,.link-list,.link-story,.bi-person{
+//         flex: 1 1 100%;
+//     }
+//     .logo { order: 1; 
+        
+//     }
+//     .link-list { 
+//         order: 3; 
+//         width: 50%;
+//         background-color: aquamarine;
+//     }
+//     .link-story { 
+//         order: 4; 
+//         width: 50%;
+//     }
+//     .bi-person { order: 2; }
+
+// }
